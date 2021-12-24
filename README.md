@@ -1,5 +1,6 @@
 # Branch predictor
 Mоdern  рrосessоr  рiрelines  соnsist  оf  ten  оr  mоre  stаges.  The  аbоve  рiрeline  shоwn  in  below Fig,  It’s  nоt  until  the  end  оf  the  Exeсute  stаge,  we  knоw  definitively  whаt  the  next  РС  shоuld  be  when  а  brаnсh  hаs  been  fully  resоlved.  The  time  tаken  tо  exeсute  а  рrоgrаm  lоор  соntаining  N  instruсtiоns  wоuld  be  N×  рiрeline-deрth.
+However, branches, especially forward branches, are difficult to predict without knowing more about the specific program. Therefore, most processors use dynamic branch predictors, which use the history of program execution to guess whether a branch should be taken. Dynamic branch predictors maintain a table of the last several hundred (or thousand) branch instructions that the processor has executed. The table, called a branch target buffer, includes the destination of the branch and a history of whether the branch was taken.
 
 ![alt text](assets/image1.PNG)
 
@@ -114,4 +115,4 @@ Report, 1993.
 - Wikipedia contributors. "Branch predictor." Wikipedia, The Free Encyclopedia
 - N. Adiga, J. Bonanno, A. Collura, M. Heizmann, B. R. Prasky and A. Saporito, "The IBM z15 High Frequency Mainframe Branch Predictor Industrial Product," 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020, pp. 27-39, doi: 10.1109/ISCA45697.2020.00014.
 - Computer Architecture: [A Constructive Approach Using Executable and Synthesizable Specifications](http://csg.csail.mit.edu/6.375/6_375_2019_www/resources/archbook_2015-08-25.pdf )
-
+- Sarah L. Harris, David Harris, in Digital Design and Computer Architecture, 2022
