@@ -32,7 +32,7 @@ Note that this tool is simply to be used for visualizing and better understandin
 - Compare between simple n-bit saturating counters or simulate custom branch predictor with the following architecture and choices:
 ![alt text](assets/general_architecture.png)
 - BHT different entry types
-    - n-bit saturating counters
+    - n-bit saturating counters.
     - n-bit agree predictor 
         - The "Bias Bit Table" displayed would likely be part of the BTB or I-cache.
 ![alt text](assets/bht_entry_choices.png)
