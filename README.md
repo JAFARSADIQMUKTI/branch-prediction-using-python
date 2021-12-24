@@ -82,6 +82,7 @@ Note that this tool is simply to be used for visualizing and better understandin
     - n-bit saturating counters.
     - n-bit agree predictor 
         - The "Bias Bit Table" displayed would likely be part of the BTB or I-cache.
+
 ![alt text](assets/bht_entry_choices.png)
 
 ![alt text](assets/2bit_branch_predictor.PNG)
