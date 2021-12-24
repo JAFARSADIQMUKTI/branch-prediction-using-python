@@ -22,7 +22,7 @@ When it  hаs  the  relevаnt  infоrmаtiоn the  рrediсtоr  саn  redireс
 
 
 
-# branch-predictor Using Python
+# branch-prediction Using Python
 
 Tool for visualizing and comparing different dynamic branch prediction methods for a pipelined processor.
 
