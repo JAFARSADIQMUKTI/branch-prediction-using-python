@@ -111,7 +111,7 @@ Report, 1993.
 - Sprangle et al., "[The agree predictor: a mechanism for reducing negative branch history interference](https://doi.org/10.1145/384286.264210)," ISCA 1997
 - Yeh and Patt, "[Two-Level Adaptive Training Branch Prediction](https://www.inf.pucrs.br/~calazans/graduate/SDAC/saltos.pdf)," MICRO 1991.
 - ECE 3058, [GT HPCA](https://www.youtube.com/watch?v=tawb_aeYQ2g&list=PLAwxTw4SYaPmqpjgrmf4-DGlaeV0om4iP), and [CMU 18-740](https://www.youtube.com/watch?v=M0y_Nvb9rGA&list=PL5PHm2jkkXmgVhh8CHAu9N76TShJqfYDt) lectures.
-- cwang360 / [branch-prediction-visualization](https://github.com/cwang360/branch-prediction-visualization)
+- cwang360 / branch-prediction-visualization
 - Wikipedia contributors. "Branch predictor." Wikipedia, The Free Encyclopedia
 - N. Adiga, J. Bonanno, A. Collura, M. Heizmann, B. R. Prasky and A. Saporito, "The IBM z15 High Frequency Mainframe Branch Predictor Industrial Product," 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020, pp. 27-39, doi: 10.1109/ISCA45697.2020.00014.
 - Computer Architecture: [A Constructive Approach Using Executable and Synthesizable Specifications](http://csg.csail.mit.edu/6.375/6_375_2019_www/resources/archbook_2015-08-25.pdf )
