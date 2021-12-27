@@ -43,6 +43,9 @@ Branch prediction is also known as branch predication or simply as predication.
 ![alt text](assets/local_history_example.png)  
 - Example text files are provided in `examples/` for simulating branch instructions from a file upload. PC values can be of any length. See [`examples/README.md`](examples/README.md) for more details.
 
+## Code Description
+- [gui_widgets.py](gui_widgets.py) -> 
+-
 ## References
 - McFarling, "[Combining Branch Predictors](https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-TN-36.pdf?source=aw&subacctid=78888&subacctname=Skimlinks&adcampaigngroup=91539&awc=7168_1634183649_7110ed148465d8d1f132fb09063d57ff&jumpid=af_gen_nc_ns&utm_medium=af&utm_source=aw&utm_campaign=Skimlinks)," DEC WRL Technical
 Report, 1993.
