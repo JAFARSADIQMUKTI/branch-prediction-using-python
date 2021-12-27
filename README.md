@@ -5,8 +5,8 @@
      -  [predictor_components.py](predictor_components.py)
      -  [predictor_widgets.py](predictor_widgets.py)
    * [Contents.md](Contents.md)
-   * assets
-   * examples
+   * [assets](assets)
+   * [examples](examples)
  
 
 
