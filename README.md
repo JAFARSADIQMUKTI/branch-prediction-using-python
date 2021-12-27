@@ -55,15 +55,14 @@ Branch prediction is also known as branch predication or simply as predication.
   - Choose BHT indexing method
     - PC,GHR,GShare,PShare,Local History 
   - Choose bits of PC to use for indexing (lowest bit is bit 0)
-  -  
+  - PC: These bits will be used to index BHT
+  - GHR: GHR size will be used to index BHT.
+  - GShare: GHR will have the same bit size as this range, These bits of PC will be used to XOR GHR to index BHT.
+  - Local History: This portion of PC will be used to index PHT. BHT index will have 2^(index size) entries.
+  - PShare: PHT index size and BHT index size will be the same as this range, These bits of PC will be used to XOR corresponding PHT entry to index BHT.
+  - Simulate_Predictor: Add a branch address (in binary) and actual direction.
 
   
-
-
-
-
-
-
 
 
 ## References
