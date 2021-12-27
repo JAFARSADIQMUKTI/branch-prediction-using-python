@@ -9,6 +9,7 @@ Branch prediction is also known as branch predication or simply as predication.
      -  [gui_widgets.py](gui_widgets.py)
      -  [predictor_components.py](predictor_components.py)
      -  [predictor_widgets.py](predictor_widgets.py)
+     -  [main.py](main.py)
    * [Contents.md](Contents.md)
    * [assets](assets)
    * [examples](examples)
