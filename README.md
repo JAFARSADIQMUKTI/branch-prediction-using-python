@@ -76,5 +76,5 @@ Report, 1993.
 - Sarah L. Harris, David Harris, in Digital Design and Computer Architecture, 2022
 - GeeksforGeeks, Techopedia, stackoverflow.
 
-# Contributor:
-  - Darshan H M
+## Contributor:
+-> Darshan H M
