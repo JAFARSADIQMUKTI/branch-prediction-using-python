@@ -45,9 +45,18 @@ Branch prediction is also known as branch predication or simply as predication.
 
 ## Code Description
 - [gui_widgets.py](gui_widgets.py) -> Tkinter is Python's standard GUI (Graphical User Interface) package. tkinter provides us with a variety of common GUI elements which we can use to build out interface – such as buttons, menus and various kind of entry fields and display areas. We call these elements Widgets.
-- [predictor_components.py](predictor_components.py) -> here we defined different classes which contains nbitPredictor, nBitAgreePredictor, PatternHistoryRegister and misprediction_rate. 
-  -- A n-bit predictor has improved prediction accuracy and changes prediction only when there are n successful mispredictions. 
-  -- nbitAgreePredictor: a new method of reducing negative branch interference called agree prediction.
+- [predictor_components.py](predictor_components.py) -> here we defined different classes which contains nbitPredictor, nBitAgreePredictor, PatternHistoryRegister and misprediction_rate (Misprediction rate for each predictor, not for each branch instruction). 
+- A n-bit predictor: has a improved prediction accuracy and changes prediction only when there are n successful mispredictions. 
+- nbitAgreePredictor: a new method of reducing negative branch interference called agree prediction.
+- main.py: 
+  - Compare simple n-bit saturating counters
+  - Simulate a custom branch predictor
+  - Choose BHT entry type and counter size
+  - Choose BHT indexing method
+    - PC,GHR,GShare,PShare,Local History 
+  - Choose bits of PC to use for indexing (lowest bit is bit 0)
+  -  
+
   
 
 
