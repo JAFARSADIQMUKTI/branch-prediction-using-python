@@ -44,8 +44,8 @@ Branch prediction is also known as branch predication or simply as predication.
 - Example text files are provided in `examples/` for simulating branch instructions from a file upload. PC values can be of any length. See [`examples/README.md`](examples/README.md) for more details.
 
 ## Code Description
-- [gui_widgets.py](gui_widgets.py) -> 
--
+- [gui_widgets.py](gui_widgets.py) -> Tkinter is Python's standard GUI (Graphical User Interface) package. tkinter provides us with a variety of common GUI elements which we can use to build out interface – such as buttons, menus and various kind of entry fields and display areas. We call these elements Widgets.
+- 
 ## References
 - McFarling, "[Combining Branch Predictors](https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-TN-36.pdf?source=aw&subacctid=78888&subacctname=Skimlinks&adcampaigngroup=91539&awc=7168_1634183649_7110ed148465d8d1f132fb09063d57ff&jumpid=af_gen_nc_ns&utm_medium=af&utm_source=aw&utm_campaign=Skimlinks)," DEC WRL Technical
 Report, 1993.
@@ -57,3 +57,4 @@ Report, 1993.
 - N. Adiga, J. Bonanno, A. Collura, M. Heizmann, B. R. Prasky and A. Saporito, "The IBM z15 High Frequency Mainframe Branch Predictor Industrial Product," 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020, pp. 27-39, doi: 10.1109/ISCA45697.2020.00014.
 - Computer Architecture: [A Constructive Approach Using Executable and Synthesizable Specifications](http://csg.csail.mit.edu/6.375/6_375_2019_www/resources/archbook_2015-08-25.pdf )
 - Sarah L. Harris, David Harris, in Digital Design and Computer Architecture, 2022
+- GeeksforGeeks, Techopedia
