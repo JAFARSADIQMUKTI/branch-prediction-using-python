@@ -14,7 +14,7 @@ Branch prediction is also known as branch predication or simply as predication.
    * [examples](examples)
  
 
-## Branch prediction methods includes
+## Branch prediction test methods includes
 - Compare between simple n-bit saturating counters or simulate custom branch predictor with the following architecture and choices:
 ![alt text](assets/general_architecture.png)
 - BHT different entry types
