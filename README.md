@@ -1,3 +1,8 @@
+
+# Branch Predictor
+Branch prediction is an approach to computer architecture that attempts to mitigate the costs of branching. Branch predication speeds up the processing of branch instructions with CPUs using pipelining. The technique involves only executing certain instructions if certain predicates are true. Branch prediction is typically implemented in hardware using a branch predictor.
+Branch prediction is also known as branch predication or simply as predication.
+
 # Project Tree
    * [Readme.md](README.md)
    * Codes
@@ -8,12 +13,6 @@
    * [assets](assets)
    * [examples](examples)
  
-
-
-
-
-
-
 
 ## Branch prediction methods includes
 - Compare between simple n-bit saturating counters or simulate custom branch predictor with the following architecture and choices:
